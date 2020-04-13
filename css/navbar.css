@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   background: #333;
   color: #fff;
   position: sticky;
@@ -7,7 +7,7 @@
   padding: 10px 45px;
 }
 
-.navbar ul{
+.navbar ul {
   display: flex;
   list-style-type: none;
   margin: 5px 0 0 0;
@@ -15,17 +15,16 @@
 
 .navbar li {
   padding: 0 15px;
-  
+
 }
 
 .navbar a:hover,
 .navbar a:visited,
-.navbar a:link{
+.navbar a:link {
   text-decoration: none;
   color: #75e77b;
 }
 
-.blog-title{
+.title {
   color: #65b9e0;
 }
-

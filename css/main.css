@@ -1,14 +1,63 @@
 @import "./post.css";
 @import "./navbar.css";
+@import "./footer.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(168, 168, 168);
+  background-color: #9c9c9c;
+}
+
+a:hover,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #1f23e6;
+}
+
+.container {
+  max-width: 90%;
+  margin: 75px auto;
+}
+
+.blog-list {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  list-style-type: none;
+  grid-gap: 20px;
+}
+
+.blog-item {
+  border: 0.5px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.date {
+  font-weight: 500;
+  color: #868585;
+}
+
+.blog-img{
+  width: 100%;
+  margin: 25px 0 0 0; 
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 12px;
+  color: #868585;
+}
+
+.blog-preview{
+  margin: 15px 0;
+  font-style: italic;
 }
