@@ -29,13 +29,13 @@
   color: #65b9e0;
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
   .navbar {
     display: block;
     text-align: center;
   }
 
-  .navbar ul{
+  .navbar ul {
     justify-content: center;
     margin: 25px 0 0 0;
   }

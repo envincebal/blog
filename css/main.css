@@ -86,14 +86,14 @@ a:link {
   border: 0.5px solid #000;
 }
 
-@media(max-width:1300px){
-  .blog-list{
+@media(max-width:1300px) {
+  .blog-list {
     grid-template-columns: 50% 50%;
   }
 }
 
-@media(max-width:1024px){
-  .blog-list{
+@media(max-width:1024px) {
+  .blog-list {
     grid-template-columns: 100%;
   }
 }
