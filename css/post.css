@@ -40,6 +40,21 @@
   margin: 0 auto;
 }
 
+.social-media-div {
+  margin: 20px 0 0 0;
+}
+
+.fab {
+  font-size: 68px;
+  margin: 15px;
+}
+
+.fa-twitter-square,
+.fa-linkedin,
+.fa-facebook-square {
+  color: #555555;
+}
+
 @media(max-width:1024px) {
 
   .post-container,

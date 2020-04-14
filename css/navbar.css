@@ -15,7 +15,6 @@
 
 .navbar li {
   padding: 0 15px;
-
 }
 
 .navbar a:hover,
@@ -33,6 +32,7 @@
   .navbar {
     display: block;
     text-align: center;
+    padding: 10px 0;
   }
 
   .navbar ul {
