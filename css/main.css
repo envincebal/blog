@@ -26,6 +26,10 @@ a:link {
   margin: 75px auto;
 }
 
+.blog-title {
+  text-align: center;
+}
+
 .blog-list {
   justify-content: center;
   display: grid;
@@ -41,14 +45,18 @@ a:link {
   background-color: #fff;
 }
 
+.blog-date {
+  text-align: center;
+}
+
 .date {
   font-weight: 500;
   color: #868585;
 }
 
-.blog-img{
+.blog-img {
   width: 100%;
-  margin: 25px 0 0 0; 
+  margin: 25px 0 0 0;
 }
 
 .img-caption {
@@ -57,17 +65,17 @@ a:link {
   color: #868585;
 }
 
-.blog-preview{
+.blog-preview {
   margin: 15px 0;
   font-style: italic;
 }
 
-.pagination{
+.pagination {
   margin: 40px 0 0 0;
   text-align: center;
 }
 
-.pagination button{
+.pagination button {
   border-radius: 5px;
   cursor: pointer;
   width: 140px;
@@ -75,5 +83,17 @@ a:link {
   margin: 0 10px;
   background-color: #4346f5;
   color: #fff;
-  border: 0.5px solid #000; 
+  border: 0.5px solid #000;
+}
+
+@media(max-width:1300px){
+  .blog-list{
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media(max-width:1024px){
+  .blog-list{
+    grid-template-columns: 100%;
+  }
 }

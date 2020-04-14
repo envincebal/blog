@@ -7,7 +7,7 @@
   padding: 10px 45px;
 }
 
-.navbar ul {
+.navbar-links {
   display: flex;
   list-style-type: none;
   margin: 5px 0 0 0;
@@ -27,4 +27,16 @@
 
 .title {
   color: #65b9e0;
+}
+
+@media(max-width:768px){
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar ul{
+    justify-content: center;
+    margin: 25px 0 0 0;
+  }
 }
