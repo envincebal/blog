@@ -92,7 +92,7 @@ a:link {
   }
 }
 
-@media(max-width:1024px) {
+@media(max-width:960px) {
   .blog-list {
     grid-template-columns: 100%;
   }
